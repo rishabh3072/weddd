@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    height:400px;
+    width:50%;
+    gap:10px;
+}
+.container img {
+    width:10%;
+    object-fit:cover;
+    border:2px solid white;;
+    border-radius:10px;
+    transition:all ease-out 0.5s;
+    cursor:pointer;
+}
+.container img:hover{
+    width:100%;
+    border:5px solid black;
+}
+body{
+    background-color: #C19A6B;
+}
